@@ -1,210 +1,176 @@
-<!--
-  AKHIL.SYS — GitHub Profile README
-  Repository: AkhilSharma11681/AkhilSharma11681
--->
 
 <div align="center">
 
-<pre>
- █████╗ ██╗  ██╗██╗██╗  ██╗██╗██╗     .SYS
-██╔══██╗██║ ██╔╝██║██║  ██║██║██║
-███████║█████╔╝ ██║███████║██║██║
-██╔══██║██╔═██╗ ██║██╔══██║██║██║
-██║  ██║██║  ██╗██║██║  ██║██║███████╗
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝╚══════╝
+<img src="./header.svg" width="100%" alt="Akhil Sharma — animated terminal banner" />
 
-[ SYSTEM ONLINE ]  [ DEVELOPER MODE ]  [ BUILD / TEST / REPEAT ]
-</pre>
-
-# AKHIL SHARMA
+<br/>
 
 **SOFTWARE DEVELOPER · PRODUCT BUILDER · PROBLEM SOLVER**
 
 Building software, exploring ideas, and learning through implementation.
 
-[![GitHub](https://img.shields.io/badge/GITHUB-AkhilSharma11681-111111?style=flat-square&logo=github&logoColor=A3E635)](https://github.com/AkhilSharma11681)
-![Focus](https://img.shields.io/badge/FOCUS-Product%20Engineering-111111?style=flat-square&labelColor=111111&color=A3E635)
-![Mode](https://img.shields.io/badge/MODE-BUILDING-111111?style=flat-square&labelColor=111111&color=A3E635)
+[GitHub](https://github.com/AkhilSharma11681) · [Repositories](https://github.com/AkhilSharma11681?tab=repositories)
 
 </div>
 
 ---
 
-### `01 // SYSTEM BOOT`
+### `whoami`
 
 ```text
-[ OK ]  Initializing developer profile...
-[ OK ]  Loading web development environment
-[ OK ]  Loading product and analytics projects
-[ OK ]  Collaboration mode enabled
-[ RUN ] Learning. Building. Iterating.
-
-root@akhil:~$ whoami
-
+akhil@github ~ $ whoami
 Akhil Sharma
-Developer interested in turning ideas into working software.
 
-root@akhil:~$ cat interests.txt
+akhil@github ~ $ cat interests.txt
+Web application development
+Product engineering
+Data analysis
+Collaborative software development
 
-> Web application development
-> Product engineering
-> User-focused interfaces
-> Data analysis and problem solving
-
-root@akhil:~$ _
+akhil@github ~ $ echo $STATUS
+BUILDING • LEARNING • ITERATING
 ```
 
-I'm a developer who enjoys working across web applications, collaborative projects, and data analysis. I like understanding a problem, building a practical solution, and improving it through testing and iteration.
+I'm a developer interested in turning ideas into useful software. My work spans web applications, collaborative projects, and data analysis. I enjoy understanding a problem, building a practical solution, and refining it through testing and iteration.
 
-### `02 // PROJECT DIRECTORY`
+---
 
-Six selected projects. Different problems, different approaches, one ongoing learning process.
+### `~/projects` — Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**[01] THE PAUSE**
+#### 01 / The Pause
 
-`MENTAL HEALTHCARE`
+**Mental healthcare**
 
-A mental-healthcare-focused project exploring a digital experience around a human-centered problem.
+A project focused on the mental healthcare space, exploring a digital experience around a human-centered problem.
 
-[OPEN REPOSITORY ↗](https://github.com/AkhilSharma11681/the-pause)
-
-</td>
-<td width="50%" valign="top">
-
-**[02] RCAPP**
-
-`COLLABORATIVE PROJECT`
-
-An application maintained under the Miloo-Chat organization. Presented as collaborative work, not as a claim of sole authorship.
-
-[OPEN REPOSITORY ↗](https://github.com/Miloo-Chat/RCAPP)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[03] PSYS**
-
-`ORGANIZATION PROJECT`
-
-A collaborative repository under ps-ys. My documented work includes a `.gitignore` change and merge-conflict resolution.
-
-[OPEN REPOSITORY ↗](https://github.com/ps-ys/PSYS)
+[View repository →](https://github.com/AkhilSharma11681/the-pause)
 
 </td>
 <td width="50%" valign="top">
 
-**[04] RUCSYS**
+#### 02 / RCAPP
 
-`TYPESCRIPT`
+**Miloo-Chat · Organization project**
 
-A TypeScript application in my project portfolio, representing hands-on work with application development.
+A collaborative application maintained under the Miloo-Chat organization. Listed as team work rather than a claim of sole authorship.
 
-[OPEN REPOSITORY ↗](https://github.com/AkhilSharma11681/RUCSYS)
+[View repository →](https://github.com/Miloo-Chat/RCAPP)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**[05] PLAYSPOT**
+#### 03 / PSYS
 
-`TYPESCRIPT · WEB DEVELOPMENT`
+**ps-ys · Organization project**
 
-A web application built with the Next.js ecosystem, with application routes and reusable components.
+A collaborative repository. My documented work includes a `.gitignore` change and merge-conflict resolution.
 
-[OPEN REPOSITORY ↗](https://github.com/AkhilSharma11681/PlaySpot)
+[View repository →](https://github.com/ps-ys/PSYS)
 
 </td>
 <td width="50%" valign="top">
 
-**[06] UBER–OLA RIDE ANALYTICS**
+#### 04 / RUCSYS
 
-`PYTHON · TABLEAU · ANALYTICS`
+**TypeScript**
+
+A TypeScript application in my project portfolio, representing hands-on application development.
+
+[View repository →](https://github.com/AkhilSharma11681/RUCSYS)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 05 / PlaySpot
+
+**TypeScript · Next.js**
+
+A web application using the Next.js ecosystem, with application routes and reusable components.
+
+[View repository →](https://github.com/AkhilSharma11681/PlaySpot)
+
+</td>
+<td width="50%" valign="top">
+
+#### 06 / Uber–Ola Ride Analytics
+
+**Python · Tableau · Analytics**
 
 A group project analysing ride bookings and cancellation patterns to explore operational inefficiencies and service reliability.
 
-[OPEN REPOSITORY ↗](https://github.com/AkhilSharma11681/SectionC_Group04_Uber-Ola-Ride-Analytics)
+[View repository →](https://github.com/AkhilSharma11681/SectionC_Group04_Uber-Ola-Ride-Analytics)
 
 </td>
 </tr>
 </table>
 
-> **Collaboration note:** RCAPP and PSYS are organization projects. Uber–Ola Ride Analytics is a group project. Repository ownership alone does not establish individual authorship, so refer to commit history and project documentation when assessing contributions.
+<sub>Collaboration matters: RCAPP and PSYS are organization projects; Uber–Ola Ride Analytics is a group project. Individual contributions should be evaluated from the relevant commit history and project documentation.</sub>
 
-### `03 // TECH STACK`
+---
 
-<div align="center">
-
-**LANGUAGES**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=3776AB)
-
-**WEB DEVELOPMENT**
-
-![React](https://img.shields.io/badge/React-111111?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
-
-**TOOLS & ANALYTICS**
-
-![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=FFFFFF)
-![Tableau](https://img.shields.io/badge/Tableau-111111?style=flat-square&logo=tableau&logoColor=E97627)
-
-</div>
-
-### `04 // TELEMETRY`
+### `~/stack` — Tools & technologies
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AkhilSharma11681&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A3E635&icon_color=A3E635&text_color=C9D1D9" alt="GitHub statistics" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkhilSharma11681&layout=compact&hide_border=true&bg_color=0D1117&title_color=A3E635&text_color=C9D1D9" alt="Most used languages" />
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
 
-<br />
-
-<img width="70%" src="https://streak-stats.demolab.com?user=AkhilSharma11681&hide_border=true&background=0D1117&ring=A3E635&fire=A3E635&currStreakLabel=A3E635&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub contribution streak" />
-
-</div>
-
-```text
-telemetry.status = "External statistics service"
-telemetry.forecasts = "Not configured"
-telemetry.live_shell = "Not configured"
-```
-
-<sub>Statistics are supplied by external services. Language distribution reflects repository contents, not verified proficiency. Cards may occasionally be unavailable.</sub>
-
-### `05 // ENGINEERING PRINCIPLES`
-
-```text
-01. Understand the problem before building.
-02. Prefer practical solutions over unnecessary complexity.
-03. Iterate through testing and feedback.
-04. Treat usability as part of engineering.
-05. Learn by building and collaborating.
-```
-
-### `06 // OPEN A CHANNEL`
-
-<div align="center">
-
-Interested in building useful software, learning from other developers, and collaborating on meaningful projects.
-
-[![Explore repositories](https://img.shields.io/badge/EXPLORE%20MY%20REPOSITORIES-A3E635?style=for-the-badge&logo=github&logoColor=111111)](https://github.com/AkhilSharma11681?tab=repositories)
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=FFFFFF)
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
+![Tableau](https://img.shields.io/badge/Tableau-0D1117?style=for-the-badge&logo=tableau&logoColor=E97627)
 
 </div>
 
 ---
 
+### `~/telemetry` — GitHub activity
+
 <div align="center">
 
-<sub>AKHIL.SYS · Built with Markdown · Continuously evolving</sub>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AkhilSharma11681&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A3E635&icon_color=A3E635&text_color=E6EDF3" alt="GitHub statistics" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AkhilSharma11681&layout=compact&hide_border=true&bg_color=0D1117&title_color=A3E635&text_color=E6EDF3" alt="Most-used languages" />
+
+<br/>
+
+<img width="70%" src="https://streak-stats.demolab.com?user=AkhilSharma11681&hide_border=true&background=0D1117&ring=A3E635&fire=A3E635&currStreakLabel=A3E635&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" alt="GitHub contribution streak" />
+
+</div>
+
+<sub>Statistics are provided by external services and may occasionally be unavailable. Language distribution reflects repository contents, not verified proficiency.</sub>
+
+---
+
+### `~/principles`
+
+```text
+[01] Understand the problem before building.
+[02] Prefer practical solutions over unnecessary complexity.
+[03] Iterate through testing and feedback.
+[04] Treat usability as part of engineering.
+[05] Learn by building and collaborating.
+```
+
+---
+
+<div align="center">
+
+### `connection.established`
+
+Interested in building useful software and learning from people who care about their craft.
+
+[![Explore GitHub](https://img.shields.io/badge/EXPLORE%20MY%20WORK-A3E635?style=for-the-badge&logo=github&logoColor=0D1117)](https://github.com/AkhilSharma11681?tab=repositories)
+
+<sub>AKHIL.SYS · Built with Markdown · Always evolving</sub>
 
 </div>
