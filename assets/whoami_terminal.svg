@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#040404"/>
+    </linearGradient>
+
+    <!-- Subtle atmospheric ambient glow from center (like the soft camera blur in Blitsum) -->
+    <radialGradient id="ambientCenter" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlowAmber" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Geist", "Segoe UI", Roboto, sans-serif;
+    }
+    .font-mono {
+      font-family: "SF Mono", "Geist Mono", "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Geist", sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+    }
+    .text-mono-subtle {
+      font-family: "SF Mono", "Geist Mono", "JetBrains Mono", Menlo, monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      fill: #737373;
+    }
+    .pulse-green {
+      animation: pulse 2.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+  </style>
+
+
+  <!-- Canvas -->
+  <rect width="900" height="240" fill="url(#bgGrad)"/>
+  <ellipse cx="450" cy="120" rx="420" ry="110" fill="url(#ambientCenter)"/>
+
+  <!-- Terminal Frame -->
+  <rect x="20" y="16" width="860" height="208" rx="8" fill="#080808" stroke="#1f1f1f" stroke-width="1"/>
+
+  <!-- Top Status Bar -->
+  <g transform="translate(20, 16)">
+    <rect width="860" height="34" rx="8" fill="#0d0d0d"/>
+    <line x1="0" y1="34" x2="860" y2="34" stroke="#1f1f1f" stroke-width="1"/>
+
+    <circle cx="20" cy="17" r="3" fill="#22c55e" filter="url(#softGlowGreen)"/>
+    <text x="32" y="21" class="text-mono-subtle">NODE: DARWIN // LOCALHOST</text>
+    <text x="836" y="21" class="text-mono-subtle" text-anchor="end">WHOAMI.EXEC</text>
+  </g>
+
+  <!-- Content Lines -->
+  <g transform="translate(44, 76)" class="font-mono" font-size="12.5" letter-spacing="0.02em">
+    <text x="0" y="0">
+      <tspan fill="#525252">akhil@terminal:~$</tspan> <tspan fill="#e5e5e5">whoami</tspan>
+    </text>
+    <text x="0" y="24" fill="#a3a3a3">
+      Akhil Sharma <tspan fill="#525252">—</tspan> Software Developer &amp; Product Engineer
+    </text>
+
+    <text x="0" y="56">
+      <tspan fill="#525252">akhil@terminal:~$</tspan> <tspan fill="#e5e5e5">cat philosophy.json</tspan>
+    </text>
+    <text x="0" y="80" fill="#737373">&#123;</text>
+    <text x="18" y="100">
+      <tspan fill="#737373">"focus":</tspan> <tspan fill="#d4d4d4">["Web Application Engineering", "Product Design Systems", "Data Analytics"]</tspan><tspan fill="#525252">,</tspan>
+    </text>
+    <text x="18" y="120">
+      <tspan fill="#737373">"mindset":</tspan> <tspan fill="#d4d4d4">"Understand the problem deeply. Build with intent. Iterate continuously."</tspan>
+    </text>
+    <text x="0" y="140" fill="#737373">&#125;</text>
+  </g>
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="100%" height="100%">
+  <defs>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#040404"/>
+    </linearGradient>
+
+    <radialGradient id="ambientCenter" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlowAmber" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Geist", "Segoe UI", Roboto, sans-serif;
+    }
+    .font-mono {
+      font-family: "SF Mono", "Geist Mono", "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Geist", sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+    }
+    .text-mono-subtle {
+      font-family: "SF Mono", "Geist Mono", "JetBrains Mono", Menlo, monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      fill: #737373;
+    }
+  </style>
+
+
+  <!-- Canvas -->
+  <rect width="900" height="350" fill="url(#bgGrad)"/>
+  <ellipse cx="450" cy="175" rx="430" ry="160" fill="url(#ambientCenter)"/>
+
+  <!-- Outer Border Container -->
+  <rect x="20" y="16" width="860" height="318" rx="8" fill="#080808" stroke="#1f1f1f" stroke-width="1"/>
+
+  <!-- Header Row -->
+  <g transform="translate(20, 16)">
+    <rect width="860" height="42" rx="8" fill="#0d0d0d"/>
+    <line x1="0" y1="42" x2="860" y2="42" stroke="#1f1f1f" stroke-width="1"/>
+
+    <text x="24" y="26" class="text-mono-subtle">REPOSITORY</text>
+    <text x="220" y="26" class="text-mono-subtle">DOMAIN / CONTEXT</text>
+    <text x="525" y="26" class="text-mono-subtle">CORE ARCHITECTURE</text>
+    <text x="836" y="26" class="text-mono-subtle" text-anchor="end">STATUS</text>
+  </g>
+
+  <!-- Row 1: The Pause -->
+  <g transform="translate(20, 58)">
+    <line x1="0" y1="46" x2="860" y2="46" stroke="#171717" stroke-width="1"/>
+    <text x="24" y="28" fill="#ffffff" font-size="13" font-weight="500" class="font-sans">01 / The Pause</text>
+    <text x="220" y="28" fill="#8a8a8a" font-size="12" class="font-mono">Mental healthcare digital platform</text>
+    <text x="525" y="28" fill="#a3a3a3" font-size="12" class="font-mono">Next.js · React · TypeScript</text>
+    <g transform="translate(836, 28)">
+      <circle cx="-56" cy="-4" r="3.5" fill="#22c55e" filter="url(#softGlowGreen)"/>
+      <text x="0" y="0" fill="#22c55e" font-size="10.5" font-weight="600" text-anchor="end" class="font-mono" letter-spacing="0.1em">PRODUCTION</text>
+    </g>
+  </g>
+
+  <!-- Row 2: RUCSYS -->
+  <g transform="translate(20, 104)">
+    <line x1="0" y1="46" x2="860" y2="46" stroke="#171717" stroke-width="1"/>
+    <text x="24" y="28" fill="#ffffff" font-size="13" font-weight="500" class="font-sans">02 / RUCSYS</text>
+    <text x="220" y="28" fill="#8a8a8a" font-size="12" class="font-mono">Modular TypeScript architecture</text>
+    <text x="525" y="28" fill="#a3a3a3" font-size="12" class="font-mono">TypeScript · Clean Architecture</text>
+    <g transform="translate(836, 28)">
+      <circle cx="-46" cy="-4" r="3.5" fill="#22c55e" filter="url(#softGlowGreen)"/>
+      <text x="0" y="0" fill="#22c55e" font-size="10.5" font-weight="600" text-anchor="end" class="font-mono" letter-spacing="0.1em">COMPILED</text>
+    </g>
+  </g>
+
+  <!-- Row 3: PlaySpot -->
+  <g transform="translate(20, 150)">
+    <line x1="0" y1="46" x2="860" y2="46" stroke="#171717" stroke-width="1"/>
+    <text x="24" y="28" fill="#ffffff" font-size="13" font-weight="500" class="font-sans">03 / PlaySpot</text>
+    <text x="220" y="28" fill="#8a8a8a" font-size="12" class="font-mono">Full-stack web platform</text>
+    <text x="525" y="28" fill="#a3a3a3" font-size="12" class="font-mono">Next.js App Router · TypeScript</text>
+    <g transform="translate(836, 28)">
+      <circle cx="-32" cy="-4" r="3.5" fill="#22c55e" filter="url(#softGlowGreen)"/>
+      <text x="0" y="0" fill="#22c55e" font-size="10.5" font-weight="600" text-anchor="end" class="font-mono" letter-spacing="0.1em">LIVE</text>
+    </g>
+  </g>
+
+  <!-- Row 4: Uber–Ola Ride Analytics -->
+  <g transform="translate(20, 196)">
+    <line x1="0" y1="46" x2="860" y2="46" stroke="#171717" stroke-width="1"/>
+    <text x="24" y="28" fill="#ffffff" font-size="13" font-weight="500" class="font-sans">04 / Uber–Ola Analytics</text>
+    <text x="220" y="28" fill="#8a8a8a" font-size="12" class="font-mono">Ride demand &amp; cancellation EDA</text>
+    <text x="525" y="28" fill="#a3a3a3" font-size="12" class="font-mono">Python · Tableau · EDA</text>
+    <g transform="translate(836, 28)">
+      <circle cx="-50" cy="-4" r="3.5" fill="#fbbf24" filter="url(#softGlowAmber)"/>
+      <text x="0" y="0" fill="#fbbf24" font-size="10.5" font-weight="600" text-anchor="end" class="font-mono" letter-spacing="0.1em">ANALYZED</text>
+    </g>
+  </g>
+
+  <!-- Row 5: BlinkChat -->
+  <g transform="translate(20, 242)">
+    <line x1="0" y1="46" x2="860" y2="46" stroke="#171717" stroke-width="1"/>
+    <text x="24" y="28" fill="#ffffff" font-size="13" font-weight="500" class="font-sans">05 / BlinkChat</text>
+    <text x="220" y="28" fill="#8a8a8a" font-size="12" class="font-mono">Real-time video &amp; chat engine</text>
+    <text x="525" y="28" fill="#a3a3a3" font-size="12" class="font-mono">Node.js · WebRTC · Sockets</text>
+    <g transform="translate(836, 28)">
+      <circle cx="-42" cy="-4" r="3.5" fill="#22c55e" filter="url(#softGlowGreen)"/>
+      <text x="0" y="0" fill="#22c55e" font-size="10.5" font-weight="600" text-anchor="end" class="font-mono" letter-spacing="0.1em">RUNNING</text>
+    </g>
+  </g>
+
+  <!-- Row 6: Collaborative Systems (RCAPP & PSYS) -->
+  <g transform="translate(20, 288)">
+    <text x="24" y="28" fill="#ffffff" font-size="13" font-weight="500" class="font-sans">06 / Org Repos (RCAPP, PSYS)</text>
+    <text x="220" y="28" fill="#8a8a8a" font-size="12" class="font-mono">Distributed team collaboration</text>
+    <text x="525" y="28" fill="#a3a3a3" font-size="12" class="font-mono">Miloo-Chat · ps-ys · Git Workflows</text>
+    <g transform="translate(836, 28)">
+      <circle cx="-38" cy="-4" r="3.5" fill="#fbbf24" filter="url(#softGlowAmber)"/>
+      <text x="0" y="0" fill="#fbbf24" font-size="10.5" font-weight="600" text-anchor="end" class="font-mono" letter-spacing="0.1em">MERGED</text>
+    </g>
+  </g>
+</svg>

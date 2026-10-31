@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="100%" height="100%">
+  <defs>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="50%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#040404"/>
+    </linearGradient>
+
+    <!-- Subtle atmospheric ambient glow from center (like the soft camera blur in Blitsum) -->
+    <radialGradient id="ambientCenter" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlowAmber" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+  
+  <style>
+    .font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Geist", "Segoe UI", Roboto, sans-serif;
+    }
+    .font-mono {
+      font-family: "SF Mono", "Geist Mono", "JetBrains Mono", Menlo, Monaco, Consolas, monospace;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Geist", sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.03em;
+    }
+    .text-mono-subtle {
+      font-family: "SF Mono", "Geist Mono", "JetBrains Mono", Menlo, monospace;
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      fill: #737373;
+    }
+    .pulse-green {
+      animation: pulse 2.5s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+  </style>
+
+
+  <!-- Canvas -->
+  <rect width="900" height="230" fill="url(#bgGrad)"/>
+  <ellipse cx="450" cy="115" rx="430" ry="110" fill="url(#ambientCenter)"/>
+
+  <!-- Border Box -->
+  <rect x="20" y="14" width="860" height="202" rx="8" fill="#080808" stroke="#1f1f1f" stroke-width="1"/>
+
+  <!-- Top Bar -->
+  <g transform="translate(20, 14)">
+    <rect width="860" height="30" rx="8" fill="#0d0d0d"/>
+    <line x1="0" y1="30" x2="860" y2="30" stroke="#1f1f1f" stroke-width="1"/>
+    <text x="24" y="19" class="text-mono-subtle">ENGINEERING DOCTRINE // PRINCIPLES</text>
+    <text x="836" y="19" class="text-mono-subtle" text-anchor="end">STATUS: ACTIVE</text>
+  </g>
+
+  <!-- 5 Hairline Rows -->
+  <g transform="translate(44, 72)" class="font-mono" font-size="12">
+    <!-- 01 -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" fill="#525252">01</text>
+      <text x="32" y="0" fill="#ededed">Understand the problem before building <tspan fill="#737373">— clarity of requirements precedes lines of code.</tspan></text>
+    </g>
+    <!-- 02 -->
+    <g transform="translate(0, 26)">
+      <text x="0" y="0" fill="#525252">02</text>
+      <text x="32" y="0" fill="#ededed">Prefer practical solutions over unnecessary complexity <tspan fill="#737373">— simplicity is maintainability.</tspan></text>
+    </g>
+    <!-- 03 -->
+    <g transform="translate(0, 52)">
+      <text x="0" y="0" fill="#525252">03</text>
+      <text x="32" y="0" fill="#ededed">Iterate through rigorous testing &amp; feedback <tspan fill="#737373">— speed of feedback drives quality.</tspan></text>
+    </g>
+    <!-- 04 -->
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" fill="#525252">04</text>
+      <text x="32" y="0" fill="#ededed">Treat usability and aesthetics as engineering requirements <tspan fill="#737373">— experience matters.</tspan></text>
+    </g>
+    <!-- 05 -->
+    <g transform="translate(0, 104)">
+      <text x="0" y="0" fill="#525252">05</text>
+      <text x="32" y="0" fill="#ededed">Learn continuously by building &amp; collaborating <tspan fill="#737373">— curiosity transforms skill.</tspan></text>
+    </g>
+  </g>
+</svg>
